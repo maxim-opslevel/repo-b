@@ -1,0 +1,24 @@
+---
+version: 1
+service:
+  name: a-b
+  lifecycle:
+  tier:
+  product:
+  owner: a8
+  language:
+  framework:
+  description:
+  aliases:
+  tags:
+  - key: a
+    value: a
+  repositories:
+  - name: maxim-opslevel/repo-b
+    path: "/"
+    provider: github
+  - name: maxim-opslevel/repo-a
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
